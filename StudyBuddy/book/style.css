@@ -1,0 +1,292 @@
+/* Main pageتنسيقات ال  */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+    margin: 0px;
+  }
+h1{
+    margin-left: 25px;
+    font-style: italic;
+    font-size: 45px;
+    animation-name: changeColor;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+h1:hover{
+    animation-name: changeSize;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    0%{
+        color: black;
+    }50%{
+        color: gold;
+        text-shadow: 3px 3px 5px gold;
+    }100%{
+        color: black;
+    }
+}
+@keyframes changeSize{
+    0%{
+        font-size: 45px;
+    }50%{
+        font-size: 55px;
+        color: gold;
+    }100%{
+        font-size: 45px;
+    }
+}
+#logo{
+    height: 150px;
+    width: 225px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+section{
+    width: 99%;
+    margin: 25px auto 25px auto;
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+#navpara{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    animation-name: changeColor;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#ulimg img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#ulimg img:hover{
+    cursor: pointer;
+    border: 2px solid gold;
+    box-shadow: 2px 2px 10px gold;
+} 
+.dep{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+}
+.dep:hover{
+    animation-name: changeColorNav;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColorNav{
+    0%{
+        color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+    }50%{
+        color: gold;
+        border: 2px solid gold;
+        border-radius: 10px;
+        text-shadow: 2px 2px 3px gold;
+        box-shadow: 2px 2px 3px gold;
+        font-size: 30px;
+    }100%{
+        color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
+.ds{
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px gainsboro;
+
+}
+#dsh{
+    font-size: 35px;
+    text-align: center;
+}
+#dsp{
+    font-size: 25px;
+}
+#dsa{
+    font-size: 30px;
+}
+
+.ds:hover{
+    animation-name: changeColorSec;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColorSec{
+    0%{
+        border: 1px solid black;
+        box-shadow: 2px 2px 3px black;
+    }50%{
+        border: 1px solid gold;
+        box-shadow: 2px 2px 3px gold;
+    }100%{
+        border: 1px solid black;
+        box-shadow: 2px 2px 3px black;
+    }
+}
+.ml{
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+#mlh{
+    font-size: 35px;
+    text-align: center;
+}
+#mlp{
+    font-size: 25px;
+}
+#mla{
+    font-size: 30px;
+}
+.ml:hover{
+    animation-name: changeColorSec;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.wd{
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+#wdh{
+    font-size: 35px;
+    text-align: center;
+}
+#wdp{
+    font-size: 25px;
+}
+#wda{
+    font-size: 30px;
+}
+.wd:hover{
+    animation-name: changeColorSec;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+/*  Book1 تنسيقات */
+#headb1{
+    display: grid;
+    grid-template-columns: 83% 1fr;
+    justify-items: center;
+}
+
+.ab1{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+#read{
+    display: flex;
+    justify-content: space-between;
+}
+#rm{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+#rm:hover{
+    cursor: pointer;
+}
+.dsb1{
+    margin-top: 30px;
+}
+#mb1{
+    display: grid;
+    
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -2px -2px 15px gainsboro;
+}
+tr, td {
+    border: 1px solid gold;
+    border-radius: 10px;
+    width: 100%;
+}
+.klam{
+    font-size: 30px;
+}
+#auds{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+#aud{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-items: flex-start;
+    align-items: center;
+}
+#b2img{
+    width: 210px;
+    height: 260px;
+    
+}
+.Edited{
+    width: 210px !important;
+    height: 260px !important;
+}
